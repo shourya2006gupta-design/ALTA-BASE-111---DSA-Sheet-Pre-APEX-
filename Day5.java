@@ -7,11 +7,13 @@ public class Day5 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
-      
+      System.out.println("Enter the account balance and withdrawal amount (separated by space): ");// input statement
       int a= sc.nextInt(); // balance
       int b= sc.nextInt(); // amount
 
       // returning result
-      System.out.println(a>=b);
+      System.out.println(a>=0 && a>=b);
+
+      sc.close();
     }
 }

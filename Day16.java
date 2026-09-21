@@ -7,6 +7,7 @@ public class Day16 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
+      System.out.println("Enter a number to check if it is a palindrome: ");// input statement
       int n = sc.nextInt(); // takes num as input
       int reverse=0;        // to store number from backword
       int placevalue=1;     // stores the placevalue of the digit to be add in reverse
@@ -22,6 +23,8 @@ public class Day16 {
       System.out.println("Palindrome");
       else
       System.out.println("Not Palindrome");
+
+      sc.close();
 
     }
 }

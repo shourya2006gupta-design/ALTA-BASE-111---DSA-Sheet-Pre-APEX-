@@ -5,12 +5,15 @@ import java.util.*;
 
 public class Day14 {
     public static void main(String[] args) {
+
       Scanner sc = new Scanner(System.in);
 
+      System.out.println("Enter a number N to print numbers from N down to 1: ");// input statement
       int num = sc.nextInt(); // takes num as input
-      int i =0; // temporary variable for iteration
-      while (0 <= --num){
+      
+      while (0 < --num){// loop to print numbers from N down to 1
         System.out.println(num);
       }
+      sc.close();
     }
 }

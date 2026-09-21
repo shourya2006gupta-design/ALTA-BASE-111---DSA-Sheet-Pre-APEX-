@@ -7,6 +7,7 @@ public class Day2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter the values of two variables to be swapped (separated by space): "); // input statement
         int a = sc.nextInt(); // taking input for variable 1
         int b = sc.nextInt(); // taking input for variable 2
 
@@ -19,5 +20,6 @@ public class Day2 {
 
         // returning result
         System.out.println("Swapped 1st variable is " + a + "\nSwapped 2nd variable is " + b);
+        sc.close();
     }
 }

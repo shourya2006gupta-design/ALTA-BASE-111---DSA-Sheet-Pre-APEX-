@@ -7,11 +7,13 @@ public class Day13 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
+      System.out.println("Enter a number N to print numbers from 1 to N: ");// input statement
       int num = sc.nextInt(); // takes num as input
-      int i =0; // temporary variable for iteration
-      while (i < num){
-        System.out.println(++i);
+
+      for (int i=1;i<=num ;i++ ) {// loop to print numbers from 1 to N
+        System.out.println(i);
       }
 
+      sc.close();
     }
 }

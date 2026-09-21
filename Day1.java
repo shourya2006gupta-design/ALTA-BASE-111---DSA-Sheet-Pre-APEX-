@@ -4,9 +4,13 @@ import java.util.*;
 
 class Day1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
+
+        System.out.println("Enter the number of days you have lived: "); //input statement
         int daysLived = sc.nextInt(); // taking input
 
         System.out.println(daysLived / 365 + " years, " + daysLived % 365 + " days"); // returning result
+        
+        sc.close();
     }
 }

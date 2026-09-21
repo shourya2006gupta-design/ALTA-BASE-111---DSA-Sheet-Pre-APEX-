@@ -8,12 +8,14 @@ public class Day6 {
       Scanner sc = new Scanner(System.in);
 
       // taking variables
+      System.out.println("Enter three numbers (separated by space): ");
       int a= sc.nextInt(); 
       int b= sc.nextInt(); 
       int c= sc.nextInt(); 
+      sc.close();
       // int largest ;
 
-      // largest number
+      // finding largest number
       if (a>=b) {
         if (a>=c){
           System.out.println(a);

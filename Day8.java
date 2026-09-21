@@ -7,15 +7,15 @@ public class Day8 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
-      
-      int a= sc.nextInt(); // number
+      System.out.println("Enter a number to check if it is divisible by both 3 and 5: ");//input statement
+      int a= sc.nextInt(); // taking number
 
-      if (a%3==0 && a%4==0){ // checking if it is divisible by 3 and 5 
+      if (a%3==0 && a%5==0){ // checking if it is divisible by 3 and 5 
         System.out.println("Yes");
       }
       else{
         System.out.println("no");
       }
-      
+      sc.close();
     }
 }

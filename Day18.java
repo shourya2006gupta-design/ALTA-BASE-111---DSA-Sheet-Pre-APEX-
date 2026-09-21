@@ -2,28 +2,20 @@
 
 // Write a program that loops through numbers starting from 1 and stops (using break) as soon as it finds the first number divisible by 7, printing that number.
 
-import java.util.*;
 
 public class Day18 {
 
     public static void main(String[] args) {
 
-      int i=1;
+      int i=1; // initializing temporary variable
+      System.out.println("The first number divisible by 7 is: ");// Input Statement
 
-      while (true){
-
+      while (true){ // infinite loop till the first number divisible by 7 is found
         if (i%7==0){
-
           System.out.println(i);
-
           break;
-
         }
-
         i++;
-
       }
-
     }
-
 }

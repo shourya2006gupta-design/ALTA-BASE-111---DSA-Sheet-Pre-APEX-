@@ -8,10 +8,14 @@ public class Day4 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
-      int a= sc.nextInt(); // price
+      System.out.println("Enter the price of the item: ");// input statement
+      int a= sc.nextInt(); // taking price
       
-      float discountedPrice=90*(float)a/100;
+      float discountedPrice=90*(float)a/100;// calculating discounted price after 10% discount
+
       // returning result
       System.out.println("Discounted Price after taxes : "+((discountedPrice*18/100)+discountedPrice));
+
+      sc.close();
     }
 }

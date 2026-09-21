@@ -8,7 +8,10 @@ public class Day7 {
       Scanner sc = new Scanner(System.in);
 
       // taking variable
+      System.out.println("Enter a year: ");
       int year = sc.nextInt(); 
+      
+      sc.close();
 
       if (year%4==0) {  // leap year if it is divisible by 4 
         if (year % 100 ==0 ){ // not a leap year if only divisible by 100

@@ -7,12 +7,13 @@ public class Day9 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
+      System.out.println("Enter weight (kg) and height (m) (separated by space): ");// input statement
       double kg= sc.nextDouble(); // takes weight
       double m= sc.nextDouble(); // takes height
 
       double BMI = (double)kg/(m*m);
 
-      if (BMI<=18.5){ // checking the category
+      if (BMI<18.5){ // checking the category
         System.out.println("Underweight");
       }
       else if(BMI<25){
@@ -24,5 +25,7 @@ public class Day9 {
       else{
         System.out.println("Obese");
       }
+
+      sc.close();
     }
 }
