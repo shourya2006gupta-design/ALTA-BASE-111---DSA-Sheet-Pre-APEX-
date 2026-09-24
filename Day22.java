@@ -1,5 +1,5 @@
 //Question
-//In C/C++, write a function using a pointer or reference parameter (&) to modify a caller's variable, and contrast it with a plain pass-by-value version that does not. In Java/JS, demonstrate the same limitation Java has for primitives: write a method that tries to modify an int parameter (it will NOT affect the caller's variable -- Java has no true pass-by-reference), then contrast this by modifying a field inside a passed object or array instead (which DOES affect the caller's data, since the object reference itself was passed).
+// In Java/JS, demonstrate the  limitation Java has for primitives: write a method that tries to modify an int parameter (it will NOT affect the caller's variable -- Java has no true pass-by-reference), then contrast this by modifying a field inside a passed object or array instead (which DOES affect the caller's data, since the object reference itself was passed).
 
 import java.util.*;
 
