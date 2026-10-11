@@ -1,3 +1,7 @@
+//QUESTION
+//https://leetcode.com/problems/two-sum/
+//Given an array of integers and a target, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target=9  Output: [0,1]
+
 import java.util.*;
 
 class Solution {
